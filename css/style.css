@@ -1,0 +1,208 @@
+@font-face {
+  font-family: "Wordle";
+  src: url("fonts/karnakcondensed-normal-700.woff") format("woff");
+}
+
+.wordle-ft {
+  font-family: "Wordle", Arial, sans-serif;
+}
+
+.titulo {
+  padding-top: 5px;
+  text-align: center;
+  margin: 5px;
+  font-weight: bolder;
+  font-family: "Wordle", Arial, sans-serif;
+  font-size: 32px;
+  border-top: 1px solid #d1cfcf;
+  border-bottom: 1px solid #d1cfcf;
+}
+
+body{
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.tabuleiro {
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-family;
+  font-size: 20px;
+  color: white;
+}
+.tabuleirov {
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Wordle", Arial, sans-serif;
+  font-size: 20px;
+}
+
+.alinhar-teclados1 {
+  margin-top: 25px;
+}
+
+.alinhar-teclados2 {
+  margin-top: 40px;
+}
+
+.tecladoL1 {
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: 100;
+  font-family: "Wordle", Arial, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+.tecladoL2 {
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: 100;
+  font-family: "Wordle", Arial, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+.tecladoL3 {
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: 100;
+  font-family: "Wordle", Arial, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+.quadrado {
+  line-height: 62px;
+  text-align: center;
+  border: 1px solid #fbf8f8;
+  display: inline-block;
+  width: 62px;
+  height: 62px;
+  background-color: #787c7e;
+}
+
+.quadradov {
+  text-align: center;
+  line-height: 62px;
+  border: 1px solid #fbf8f8;
+  display: inline-block;
+  width: 62px;
+  height: 62px;
+  background-color: #6aaa64;
+}
+
+.quadradoa {
+  line-height: 62px;
+  border: 1px solid #fbf8f8;
+  display: inline-block;
+  width: 62px;
+  height: 62px;
+  background-color: #c9b458;
+}
+.quadradosemcor {
+  text-align: center;
+  line-height: 62px;
+  border: 1px solid #1d1c1c;
+  display: inline-block;
+  width: 62px;
+  height: 62px;
+  background-color: #ffffff;
+}
+.quadradonull {
+  text-align: center;
+  line-height: 62px;
+  border: 1px dotted rgb(139, 138, 138);
+  display: inline-block;
+  width: 62px;
+  height: 62px;
+  background-color: #ffffff;
+}
+
+.quadradoclaro {
+  line-height: 58px;
+  color: #000000;
+  text-align: center;
+  border: 1px solid #fbf8f8;
+  border-radius: 3px;
+  display: inline-block;
+  width: 43px;
+  height: 58px;
+  background-color: #d3d6da;
+}
+
+.quadradocinza {
+  color: #ffffff;
+  margin-top: 10px;
+  line-height: 58px;
+  text-align: center;
+  border: 1px solid #dfdcdc;
+  border-radius: 3px;
+  display: inline-block;
+  width: 43px;
+  height: 58px;
+  background-color: #808080;
+}
+
+.quadradoam {
+  margin: 0px;
+  line-height: 58px;
+  border: 1px solid #fbf8f8;
+  display: inline-block;
+  width: 43px;
+  height: 58px;
+  background-color: #c9b458;
+}
+
+.quadradocinz {
+  color: #ffffff;
+  /* margin-top: 35px; */
+  line-height: 58px;
+  text-align: center;
+  border: 1px solid #dfdcdc;
+  border-radius: 3px;
+  display: inline-block;
+  width: 43px;
+  height: 58px;
+  background-color: #808080;
+}
+
+.quadradoverde {
+  margin: 0px;
+  line-height: 58px;
+  border: 1px solid #fbf8f8;
+  display: inline-block;
+  width: 43px;
+  height: 58px;
+  background-color: #6aaa64;
+}
+
+.quadradoclaro1 {
+  line-height: 58px;
+  color: #000000;
+  text-align: center;
+  border: 1px solid #fbf8f8;
+  border-radius: 3px;
+  display: inline-block;
+  width: 62px;
+  height: 58px;
+  background-color: #d3d6da;
+}
+
+.marg {
+  margin-top: 15px;
+}
+
+.tecladoL1,
+.tecladoL2,
+.tecladoL3 {
+  font-weight: bolder;
+}
+
+.link {
+  text-align: center;
+  font-size: x-large;
+  padding-top: 15px;
+}
