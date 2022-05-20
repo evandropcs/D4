@@ -1,4 +1,4 @@
 # D4
 Desafio D4 - Wordle
 
-https://evandropcs.github.io/D4/
+https://evandropcs.github.io/Desafio-D4/
